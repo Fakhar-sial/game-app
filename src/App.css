@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #27213c;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #332a50;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px 5px;
+  margin-top: 5px;
+}
+
+li:hover {
+  background-color: #fdca40;
+  color: #27213c;
+  font-weight: bold;
+}
+
+.dropdown {
+  display: inline-block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.head {
+  height: 5rem;
+  background-color: #505050;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  background-color: #fdca40;
+  color: black;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  display: block; /* To remove any default spacing */
+}
+
+.game-container {
+  display: flex;
+}
+
+.game-chart {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
